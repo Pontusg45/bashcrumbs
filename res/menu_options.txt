@@ -1,0 +1,2 @@
+Show files          | ls
+Show java processes | jps -l
