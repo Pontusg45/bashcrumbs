@@ -33,11 +33,5 @@ function execute_and_exit() {
 while true; do 
   display_menu
 
-  # Check if choice is the 'Exit' option 
-  if [[ $choice == 1 ]]; then  # Replace with actual index
-    echo "Exiting..."
-    exit 0 
-  else
-    execute_and_exit
-  fi
+  execute_and_exit
 done
